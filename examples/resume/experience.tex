@@ -11,20 +11,31 @@
 
 %---------------------------------------------------------
   \cventry
+  {Manager} % Job title
+  {Synology} % Organization
+  {New Taipei City, Taiwan} % Location
+  {Oct. 2022 - Present} % Date(s)
+  {
+    \begin{cvitems} % Description(s) of tasks/responsibilities
+      \item {Involved in designing the global file locking system of Synology Hybrid Share to prevents simultaneous file modifications, eliminating data conflicts and enabling seamless collaboration without concerns about versioning or overwriting problems.}
+      \item {Involved in designing the snapshot system of Synology Hybrid Share to protect from the threat of ransomware. The proposed snapshot system can take and restore snapshot in second level.}
+      \item {Involved in designing the full end-to-end encryption log system to gain comprehensive oversight of Hybrid Share operations with detailed logs, enabling seamless audits, compliance reviews, and issue resolution for administrators.}
+      \item {Involved in designing the C2 Storage Explorer file sharing mechanism to allow user to share files for reading and writing to another user with synology account in full end-to-end encryption scheme.}
+      \item {Synology Hybrid Share performance optimization in latency and throughput. In small files, the upload speed has been doubled. Achieved several times speed improvement for larger files by increasing parallelizability.}
+    \end{cvitems}
+  }
+
+%---------------------------------------------------------
+  \cventry
     {Senior Product Developer} % Job title
     {Synology} % Organization
     {New Taipei City, Taiwan} % Location
-    {Jan. 2020 - Present} % Date(s)
+    {Jan. 2020 - Oct. 2022} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
         \item {Designed a secure login and access flow between Synology Hybrid Share client and Synology C2 Cloud service.}
         \item {Designed and implemented an overall service architecture and event pipelines of Synology Hybrid Share client that supports event dependency with flexibility and efficiency in C++.}
-        \item {Built fully automated CI pipelines for Synology Hybrid Share client using Synology automated testing framework to ensure the robustness of the software.}
-        \item {Designed and implemented public SDK of Synology Hybrid Share client to integrate Synology software products.}
-        \item {Designed and implemented storage throttle policy to reach the goal of uninterrupted file transmission in Synology Hybrid Share client.}
         \item {Designed and implemented data and metadata encryption schemes in Synology Hybrid Share to ensure nearly zero knowledge on the server-side which can protect the privacy of the user.}
-        \item {Performance tuning in latency and throughput in Synology Hybrid Share.}
-        \item {Be a mentor to help new members finish their tasks and pick up the necessary knowledge.}
       \end{cvitems}
     }
 
@@ -37,34 +48,9 @@
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
         \item {Designed and implemented Synology Virtual DSM license system.}
-        \item {Modify Synology Demo Site Service to integrated Synology Virtual DSM.}
+        \item {Integrated Synology Virtual DSM into Synology Live Demo Site.}
         \item {Designed and implemented Virtual Machine Manager public API.}
-        \item {Improved the performance of importing/exporting VM in Synology Virtual Machine Manager by modifying QEMU. We save 48\% time in importing and 38\% time in exporting. It also reduces the extra space requirement.}
-        \item {Improved the performance of the Synology automated testing framework by about 9\% without modifying CI testing code by letting it be able to run TestSuite parallelly.}
-      \end{cvitems}
-    }
-
-%---------------------------------------------------------
-  \cventry
-    {Software Engineer Intern} % Job title
-    {Potentia} % Organization
-    {Taipei City, Taiwan} % Location
-    {April. 2016 - July. 2016} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {We built a simple chat bot by using Hubot. I'm responsible for surveying and constructing a Hubot environment which can be simply deployed.}
-      \end{cvitems}
-    }
-
-%---------------------------------------------------------
-  \cventry
-    {Software Engineer Summer Intern} % Job title
-    {ITRI} % Organization
-    {Hsinchu City, Taiwan} % Location
-    {July. 2015 - Aug. 2015} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {We built a simple song recommender system. I'm responsible for measuring the distance between each songs in this project.}
+        \item {By tweaking QEMU, we improved the efficiency of importing/exporting VMs in Synology Virtual Machine Manager. This resulted in a 48\% increase in imports and a 38\% increase in exports. It also decreased the need for extra space need.}
       \end{cvitems}
     }
 %---------------------------------------------------------
